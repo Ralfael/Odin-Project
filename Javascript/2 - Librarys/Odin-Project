@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+<button id="calculate">Calculate</button>
+<button id="clear">Clear</button>
+<pre id="results"></pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

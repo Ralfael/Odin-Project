@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Book Display</title>
+  <style>
+    /* Add some basic CSS styles for the book cards */
+    .book-card {
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin: 10px;
+      max-width: 300px;
+    }
+
+    /* Add some basic CSS styles for the form */
+    #new-book-form {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div id="book-container"></div>
+  <button id="new-book-button">NEW BOOK</button>
+  <div id="new-book-form">
+    <form id="book-form">
+      <label for="title">Title:</label>
+      <input type="text" id="title" required><br>
+
+      <label for="author">Author:</label>
+      <input type="text" id="author" required><br>
+
+      <label for="pages">Number of Pages:</label>
+      <input type="number" id="pages" required><br>
+
+      <label for="read">Read:</label>
+      <input type="checkbox" id="read"><br>
+
+      <button type="submit">Add Book</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
